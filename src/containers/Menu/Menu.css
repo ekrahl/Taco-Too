@@ -1,0 +1,62 @@
+.menu-bg {
+  background: url("../../assets/cactus1.png");
+  background-position: center 14rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 150px;
+  margin: 0;
+}
+
+.menu-cactus-bg {
+  margin-top: 40vh;
+}
+
+.menu-wrapper {
+  background-color: white;
+  margin: 10rem 0 0 0;
+}
+
+.menu-title {
+  background-color: white;
+  width: 100%;
+  font-family: var(--font-base);
+  color: var(--color-green);
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 0.04em;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  padding-top: 7rem;
+}
+
+.menu-title span {
+  font-size: 3rem;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.menu-down-btn {
+  color: var(--color-green);
+  background: transparent;
+  border: none;
+  font-size: 4rem;
+}
+
+.menu-down-btn:hover {
+  color: var(--color-orange);
+  transition: 0.3s ease;
+}
+
+@media screen and (min-width: 850px) {
+  .menu-wrapper {
+    background-color: white;
+    margin: 10rem 0 30rem 0;
+  }
+
+  .menu-title {
+    padding-top: 12rem;
+  }
+}

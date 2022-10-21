@@ -1,0 +1,186 @@
+.header-bg {
+  padding-top: 8rem;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.header-title {
+  font-family: var(--font-base);
+  color: var(--color-pink);
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 6rem;
+  font-size: 6rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+.title1 {
+  animation: 4s ease 0.5s normal forwards 1 fadein;
+  -webkit-animation: 4s ease 0.5s normal forwards 1 fadein;
+  opacity: 0;
+}
+
+.title2 {
+  animation: 4s ease 1.2s normal forwards 1 fadein;
+  -webkit-animation: 4s ease 1.2s normal forwards 1 fadein;
+  opacity: 0;
+}
+
+.title3 {
+  animation: 4s ease 1.9s normal forwards 1 fadein;
+  -webkit-animation: 4s ease 1.9s normal forwards 1 fadein;
+  opacity: 0;
+}
+
+.header-subtitle {
+  font-family: var(--font-alt);
+  color: var(--color-white);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-align: center;
+  font-size: 4rem;
+  text-shadow: 2px 1px 2px black;
+  padding: 1rem 0;
+  animation: 4s ease 2s normal forwards 1 fadein;
+  -webkit-animation: 4s ease 2s normal forwards 1 fadein;
+  opacity: 0;
+}
+
+.buttons-wrapper {
+  padding: 0 25%;
+  display: grid;
+}
+
+.header-button {
+  background-color: var(--color-blue);
+  color: var(--color-black);
+  font-family: var(--font-alt);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 2rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1px;
+  border: solid;
+  border-color: var(--color-black);
+  outline: none;
+  cursor: pointer;
+  animation: 4s ease 3s normal forwards 1 fadein;
+  -webkit-animation: 4s ease 3s normal forwards 1 fadein;
+  opacity: 0;
+}
+
+.header-button:hover {
+  background-color: var(--color-pink);
+  color: white;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.down-button {
+  color: var(--color-pink);
+  background: transparent;
+  border: none;
+  font-size: 4rem;
+  margin-top: 2rem;
+  animation: 4s ease 4s normal forwards 1 fadein;
+  -webkit-animation: 4s ease 4s normal forwards 1 fadein;
+  opacity: 0;
+}
+
+.down-button:hover {
+  color: var(--color-orange);
+  transition: 0.3s ease;
+}
+
+.modal-close-button {
+  background-color: var(--color-blue);
+  color: var(--color-black);
+  font-family: var(--font-alt);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 2rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1px;
+  border: solid;
+  border-color: var(--color-black);
+  outline: none;
+  cursor: pointer;
+}
+
+.modal-close-button:hover {
+  background-color: var(--color-pink);
+  transition: 0.3s ease;
+}
+
+.modal-info-wrapper {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-info-wrapper h1 {
+  font-size: 6rem;
+  font-family: var(--font-alt);
+  font-weight: 700;
+  color: var(--color-white);
+  text-align: center;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  .header-title {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .header-subtitle {
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 2.75rem;
+    text-align: center;
+  }
+
+  .modal-open-content {
+    background: url("../../assets/prep2.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20rem;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: var(--font-alt);
+    font-weight: 700;
+    color: var(--color-white);
+  }
+}

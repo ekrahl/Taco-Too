@@ -1,0 +1,16 @@
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p__amatic {
+  font-family: var(--font-alt);
+  color: var(--color-white);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  line-height: 40px;
+  font-size: 40px;
+}

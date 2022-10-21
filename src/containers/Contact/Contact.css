@@ -1,0 +1,107 @@
+.location-bg {
+  background: url("../../assets/cactus3.png");
+  background-position: center 10rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-wrapper {
+  background-color: var(--color-black);
+  opacity: 80%;
+  padding-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-title {
+  color: var(--color-orange);
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: var(--font-alt);
+}
+
+.location-info {
+  color: white;
+  font-family: var(--font-p-reg);
+}
+
+.spacer {
+  height: 34vh;
+  background: transparent;
+}
+
+.hours-wrapper {
+  background-color: var(--color-black);
+  opacity: 80%;
+  padding-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  justify-content: center;
+  align-items: center;
+}
+
+.hours-title {
+  color: var(--color-orange);
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: var(--font-alt);
+}
+
+.hours-info {
+  color: white;
+  font-family: var(--font-p-reg);
+  padding: 0.1rem;
+}
+
+.contact-wrapper {
+  background-color: var(--color-black);
+  opacity: 80%;
+  padding-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-title {
+  color: var(--color-orange);
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: var(--font-alt);
+}
+
+.contact-info {
+  color: white;
+  font-family: var(--font-p-reg);
+  padding: 0.2rem;
+}
+
+@media screen and (min-width: 2000px) {
+  .location-bg {
+    background-position: center 18rem;
+  }
+
+  .location-wrapper {
+    padding-top: 10rem;
+  }
+}

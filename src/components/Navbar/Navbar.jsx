@@ -18,6 +18,7 @@ export default function Navbar() {
                 <li><a href="#about">About</a></li>
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact">Order Online</a></li>
             </ul>
             <div className="navbar-smallscreen">
                 <GiHamburgerMenu color='var(--color-orange)' fontSize={27} className="overlay__open" onClick={() => setToggleMenu(true)} />

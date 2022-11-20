@@ -13,13 +13,8 @@ export default function Contact() {
             </div>
             <div className='hours-wrapper flex__Center'>
                 <h1 className='hours-title'>Hours</h1>
-                <p className='hours-info'>Monday 7am - 6pm</p>
-                <p className='hours-info'>Tuesday 7am - 6pm</p>
-                <p className='hours-info'>Wednesday 7am - 6pm</p>
-                <p className='hours-info'>Thursday 7am - 6pm</p>
-                <p className='hours-info'>Friday 7am - 6pm</p>
+                <p className='hours-info'>Sunday - Friday 7am - 6pm</p>
                 <p className='hours-info'>Saturday 7am - 5pm</p>
-                <p className='hours-info'>Sunday 7am - 6pm</p>
             </div>
             <div className='contact-wrapper flex__center' id='contact'>
                 <h1 className='contact-title'>Contact</h1>

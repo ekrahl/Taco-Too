@@ -1,5 +1,5 @@
 .about-wrapper {
-  background: url("../../assets/cactus4.png");
+  background: url("../../constants/images/cactus4.png");
   background-position: center 16rem;
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,6 +28,7 @@
   opacity: 80%;
   height: auto;
   margin: 30% 20%;
+  border-radius: 1rem;
 }
 
 .about-title {

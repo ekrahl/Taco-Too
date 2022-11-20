@@ -1,5 +1,5 @@
 .location-bg {
-  background: url("../../assets/cactus3.png");
+  background: url("../../constants/images/cactus3.png");
   background-position: center 10rem;
   background-size: cover;
   background-repeat: no-repeat;
@@ -35,6 +35,7 @@
 .location-info {
   color: white;
   font-family: var(--font-p-reg);
+  font-size: 1.4rem;
 }
 
 .spacer {
@@ -61,12 +62,14 @@
   font-size: 2.5rem;
   text-align: center;
   font-family: var(--font-alt);
+  margin-top: 2rem;
 }
 
 .hours-info {
   color: white;
   font-family: var(--font-p-reg);
   padding: 0.1rem;
+  font-size: 1.4rem;
 }
 
 .contact-wrapper {
@@ -75,6 +78,8 @@
   padding-top: 1rem;
   width: 100%;
   display: flex;
+  justify-content: center;
+  justify-items: center;
   flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
@@ -88,12 +93,13 @@
   font-size: 2.5rem;
   text-align: center;
   font-family: var(--font-alt);
+  margin-top: 2rem;
 }
 
 .contact-info {
   color: white;
   font-family: var(--font-p-reg);
-  padding: 0.2rem;
+  font-size: 1.4rem;
 }
 
 @media screen and (min-width: 2000px) {

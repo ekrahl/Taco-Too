@@ -6,15 +6,17 @@
   .app__footer p {
     font-family: var(--font-alt);
     color: var(--color-orange);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 900;
     text-align: center;
-    padding-top: 0.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
   }
   
   .social-links {
     flex: 1;
     list-style: none;
+    padding-top: 2rem;
   }
   
   .social-links li {

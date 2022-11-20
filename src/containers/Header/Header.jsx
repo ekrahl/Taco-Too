@@ -35,7 +35,8 @@ export default function Header() {
                                 paddingTop: '10%', 
                                 backgroundImage: `url(${imageUrl2})`,
                                 backgroundSize: 'cover',
-                                margin: '0'
+                                borderRadius: '2rem',
+                                margin: '8rem'
                                 }
                              
                             }}

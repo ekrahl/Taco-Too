@@ -57,15 +57,15 @@
 
 .header-button {
   background-color: var(--color-blue);
-  color: var(--color-black);
+  color: var(--color-white);
   font-family: var(--font-alt);
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 2rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 1rem;
-  padding: 0.5rem 1.5rem;
-  border-radius: 1px;
+  padding: 1.5rem 1.5rem;
+  border-radius: 20px;
   border: solid;
   border-color: var(--color-black);
   outline: none;
@@ -170,7 +170,7 @@
   }
 
   .modal-open-content {
-    background: url("../../assets/prep2.jpg");
+    background: url("../../constants/images/prep2.jpg");
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;

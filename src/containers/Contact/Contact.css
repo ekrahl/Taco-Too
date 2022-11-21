@@ -25,16 +25,18 @@
   align-items: center;
 }
 
-.location-title {
+.title {
   color: var(--color-orange);
   font-size: 2.5rem;
   text-align: center;
   font-family: var(--font-alt);
+  margin-top: 2rem;
 }
 
-.location-info {
+.info {
   color: white;
   font-family: var(--font-p-reg);
+  padding: 0.1rem;
   font-size: 1.4rem;
 }
 
@@ -57,21 +59,6 @@
   align-items: center;
 }
 
-.hours-title {
-  color: var(--color-orange);
-  font-size: 2.5rem;
-  text-align: center;
-  font-family: var(--font-alt);
-  margin-top: 2rem;
-}
-
-.hours-info {
-  color: white;
-  font-family: var(--font-p-reg);
-  padding: 0.1rem;
-  font-size: 1.4rem;
-}
-
 .contact-wrapper {
   background-color: var(--color-black);
   opacity: 80%;
@@ -86,20 +73,6 @@
   background-position: top center;
   justify-content: center;
   align-items: center;
-}
-
-.contact-title {
-  color: var(--color-orange);
-  font-size: 2.5rem;
-  text-align: center;
-  font-family: var(--font-alt);
-  margin-top: 2rem;
-}
-
-.contact-info {
-  color: white;
-  font-family: var(--font-p-reg);
-  font-size: 1.4rem;
 }
 
 @media screen and (min-width: 2000px) {

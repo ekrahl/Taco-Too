@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const menu = [
     {
         id: "1",

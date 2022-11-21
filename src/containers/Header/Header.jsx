@@ -28,6 +28,7 @@ export default function Header() {
                     <Modal
                         isOpen={isOpen}
                         onRequestClose={toggleModal}
+                        ariaHideApp={false}
                         contentLabel="Coming Soon!"
                         style={{ 
 
